@@ -30,6 +30,10 @@ section.s002 h1 { padding-top: 75px; font-size: 4em; }
 
 section.s003 { background: #00BCD4; }
 section.s003 div.gor-form { border: 2px solid #E91E63; background: #8BC349; padding: 15px; }
+section.s003 div.gor-form form { text-align: center; }
+section.s003 div.gor-form form input { vertical-align: middle; width: 220px; height: 30px; font: 1.1em Arial, sans-serif; padding: 5px 15px; border: 2px solid #E91E63; margin-right: 30px; }
+section.s003 div.gor-form form input:focus { outline: none; }
+section.s003 div.gor-form form button { width: 200px; height: 50px; }
 
 section.s004 { background: #4CAF50; }
 section.s004 ul li { float: left; width: 250px; margin-right: 105px; margin-bottom: 45px; border: 2px solid #E91E63; box-sizing: border-box; }
@@ -39,7 +43,10 @@ section.s004 ul li p { padding: 15px; }
 
 section.s005 div.s005-left { float: left; width: 450px; }
 section.s005 div.ver-form { width: 250px; float: right; border: 2px solid #E91E63; background: #8BC349; padding: 45px; }
-section.s005 div.ver-form form input { display: block; margin-bottom: 30px; }
+section.s005 div.ver-form form h3 { margin-bottom: 30px; }
+section.s005 div.ver-form form input { display: block; margin-bottom: 30px; width: 220px; height: 30px; font: 1.1em Arial, sans-serif; padding: 5px 15px; border: 2px solid #E91E63; margin-right: 30px; }
+section.s005 div.ver-form form input:focus { outline: none; }
+section.s005 div.ver-form form button { display: block; margin: 0 auto; width: 200px; height: 50px; }
 
 section.s006 { background: #CDDC39; }
 section.s006 ul li { display: inline-block; float: left; width: 250px; margin-right: 105px; border: 2px solid #E91E63; box-sizing: border-box; }
@@ -78,10 +85,26 @@ section.s011 ul li p { padding: 15px; }
 section.s011 ul li button { width: 200px; height: 50px; display: block; background: #E91C63; border-color: #607D8B; margin: 0 auto; margin-bottom: -20px; }
 
 section.s012 { background: #4051B5; }
-section.s012 div.s012-left { width: 500px; float: left; }
-section.s012 div.s012-left h2 { font-size: 2.7em; text-align: left; }
-section.s012 div.s012-left button { width: 350px; height: 70px; display: block; background: #E91C63; border-color: #607D8B; margin: 30px auto 0; }
-section.s012 div.s012-right { float: right; }
-section.s012 div.s012-right img { width: 300px; height: 300px; }
+section.s012 div.s012-left { float: left; }
+section.s012 div.s012-left img { width: 300px; height: 300px; }
+section.s012 div.s012-right { width: 500px; float: right; }
+section.s012 div.s012-right h2 { font-size: 2.7em; text-align: left; }
+
+section.s013 { background: #FFEB3B; }
+section.s013 div.slider ul li { text-align: center; }
+
+section.s014 { background: #4CAF50; }
+section.s014 ul li { float: left; width: 250px; margin-right: 105px; margin-bottom: 45px; border: 2px solid #E91E63; box-sizing: border-box; }
+section.s014 ul li:nth-child(3), section.s014 ul li:nth-child(6), section.s014 ul li:nth-child(9), section.s014 ul li:nth-child(12) { margin-right: 0; }
+section.s014 ul li h3 { background: #4CAF50; width: 150px; margin: -15px auto 0; }
+section.s014 ul li p { padding: 15px; }
+
+footer { min-height: 300px; }
+footer ul.footer-list { padding: 45px 0; }
+footer ul.footer-list li { float: left; width: 270px; margin-right: 75px; }
+footer ul.footer-list li:last-child { margin-right: 0; }
+
+section.s000 { background: #FF5722; min-height: auto; text-align: center; }
+section.s000 span { vertical-align: middle; }
 
 /*# sourceMappingURL=style.css.map */

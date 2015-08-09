@@ -37,6 +37,27 @@ section.s003 {
 		border: 2px solid #E91E63;
 		background: #8BC349;
 		padding: $pad;
+
+		form {
+			text-align: center;
+			input {
+				vertical-align: middle;
+			    width: 220px;
+			    height: 30px;
+			    font: 1.1em Arial, sans-serif;
+			    padding: $pad/3 $pad;
+			    border: 2px solid #E91E63;
+			    margin-right: $mar*2;
+
+			    &:focus {
+			    	outline: none;
+			    }
+			}
+			button {
+				width: 200px;
+				height: 50px;
+			}
+		}
 	}
 
 }
@@ -86,9 +107,28 @@ section.s005 {
 		background: #8BC349;
 		padding: $pad*3;
 		form {
+			h3 {
+				margin-bottom: $mar*2;
+			}
 			input {
 				display: block;
 				margin-bottom: $mar*2;
+			    width: 220px;
+			    height: 30px;
+			    font: 1.1em Arial, sans-serif;
+			    padding: $pad/3 $pad;
+			    border: 2px solid #E91E63;
+			    margin-right: $mar*2;
+
+			    &:focus {
+			    	outline: none;
+			    }
+			}
+			button {
+				display: block;
+				margin: 0 auto;
+				width: 200px;
+				height: 50px;
 			}
 		}
 	}
@@ -258,30 +298,92 @@ section.s012 {
 
 
 	div.s012-left {
-		width: 500px;
+
 		float: left;
 
-		h2 {
-			font-size: 2.7em;
-			text-align: left;
-		}
-
-		button {
-			width: 350px;
-			height: 70px;
-			display: block;
-			background: #E91C63;
-			border-color: #607D8B;
-			margin: $mar*2 auto 0;
-		}
-	}
-
-	div.s012-right {
-		float: right;
 		img {
 			width: 300px;
 			height: 300px;
 		}
 	}
 
+	div.s012-right {
+		width: 500px;
+		float: right;
+		h2 {
+			font-size: 2.7em;
+			text-align: left;
+		}		
+	}
+}
+
+section.s013 {
+	background: #FFEB3B;
+
+	div.slider {
+		ul {
+			li {
+				text-align: center;
+			}
+		}
+	}
+}
+
+
+section.s014 {
+	background: #4CAF50;
+
+	ul {
+		li {
+			float: left;
+			width: 250px;
+			margin-right: 105px;
+			margin-bottom: $mar*3;
+			border: 2px solid #E91E63;
+			box-sizing: border-box;
+
+			&:nth-child(3), 
+			&:nth-child(6),
+			&:nth-child(9),
+			&:nth-child(12) {
+				margin-right: 0;
+			}
+
+			h3 {
+				background: #4CAF50;
+				width: 150px;
+				margin: -$mar auto 0;
+			}
+
+			p {
+				padding: $pad;
+			}
+		}
+	}
+}
+
+footer {
+	min-height: 300px;
+	ul.footer-list {
+		padding: $pad*3 0;
+		li {
+			float: left;
+			width: 270px;
+			margin-right: 75px;
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+section.s000 {
+	background: #FF5722;
+	min-height: auto;
+	text-align: center;
+	span {
+		
+		vertical-align: middle;
+	}
 }
