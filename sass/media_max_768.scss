@@ -1,20 +1,20 @@
-@media only screen and (min-width: 769px) and (max-width: 1024px) { 
+@media only screen and (min-width: 441px) and (max-width: 768px) { 
 
 div.wrapp {
-	width: 750px;
+	width: 80%;
 }
 
 header.s001 {
 
 	div.header-logo {
-		float: left;
+		float: none;
 		text-align: center;
 		
 
 	}
 
 	div.header-contact {
-		float: right;
+		float: none;
 		margin: 0 auto;
 		ul {
 			text-align: center;
@@ -51,14 +51,10 @@ section.s004 {
 
 	ul {
 		li {
-			float: left;
-			width: 350px;
+			float: none;
+			width: auto;
 			margin-right: 0;
 			margin-bottom: $mar*3;
-
-			&:nth-child(odd) {
-				margin-right: 25px;
-			}
 
 		}
 	}
@@ -93,18 +89,10 @@ section.s006 {
 	ul {
 		li {
 			display: block;
-			float: left;
+			float: none;
 			margin-right: 0;
 			margin-bottom: $mar*2;
-			width: 350px;
-
-
-			&:nth-child(odd) {
-				margin-right: 25px;
-			}
-			&:last-child {
-				margin-left: 200px;
-			}
+			width: auto;
 
 
 			h3 {
@@ -126,9 +114,9 @@ section.s007 {
 			padding: $pad*2;
 
 			img {
-				width: 100px;
-				height: 100px;
-				margin: $mar;
+				width: 70px;
+				height: 70px;
+				margin-right: $mar;
 			}
 		}
 	}
@@ -136,16 +124,14 @@ section.s007 {
 
 section.s008 {
 	p {
-		padding: $pad $pad*5;
+		padding: $pad;
 	}
 }
 
 section.s009 {
 	ol {
 		list-style: auto;
-		text-align: left;
-		margin: 0 auto;
-		width: 600px;
+		text-align: center;
 		div {
 			width: auto;
 			float: none;
@@ -164,8 +150,8 @@ section.s009 {
 
 section.s010 {
 	div.s010-left {
-		width: 400px;
-		float: left;
+		width: auto;
+		float: none;
 
 		button {
 			width: 250px;
@@ -175,7 +161,7 @@ section.s010 {
 	}
 
 	div.s010-right {
-		float: right;
+		float: none;
 		margin-top: $mar*2;
 		img {
 			width: 300px;
@@ -193,17 +179,10 @@ section.s011 {
 	ul {
 		li {
 			display: block;
-			float: left;
-			width: 350px;
+			float: none;
+			width: auto;
 			margin-right: 0;
 			margin-bottom: $mar*2;
-
-			&:nth-child(odd) {
-				margin-right: 25px;
-			}
-			&:last-child {
-				margin-left: 200px;
-			}
 
 			img {
 				width: 240px;
@@ -238,14 +217,14 @@ section.s012 {
 
 	div.s012-left {
 
-		float: left;
+		float: none;
 		margin-bottom: $mar*2;
 
 		img {
 			width: 250px;
 			height: 250px;
 			display: block;
-			margin: $mar;		
+			margin: 0 auto;		
 		}
 	}
 
@@ -278,13 +257,10 @@ section.s013 {
 section.s014 {
 	ul {
 		li {
-			float: left;
-			width: 350px;
+			float: none;
+			width: auto;
 			margin-right: 0;
 			margin-bottom: $mar*2;
-			&:nth-child(odd) {
-				margin-right: 25px;
-			}
 
 		}
 	}
@@ -294,23 +270,18 @@ footer {
 	ul.footer-list {
 		padding: $pad*3 0;
 		text-align: center;
-		li {			
-			margin-right: 0;			
-		}
-		> li {
-			@include clearfix();
+		li {
 			display: block;
-			float: left;
-			width: 350px;
-			margin-bottom: $mar*2;
-
-			&:nth-child(odd) {
-				margin-right: 25px;
-			}
-			&:last-child {
-				margin-left: 200px;
-			}
+			float: none;
+			width: auto;
+			margin-right: 0;
 		}
+		> li {			
+			margin-bottom: $mar;
+			padding-bottom: $mar;
+			border-bottom: 2px solid #CDDC39;
+		}
+
 	}
 }
 
